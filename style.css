@@ -56,7 +56,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-btn {
+.task-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -145,4 +145,14 @@ li > * {
 
 .task-edit .task-text {
   display: none;
+}
+.header__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
