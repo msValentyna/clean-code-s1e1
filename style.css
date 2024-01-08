@@ -56,7 +56,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-btn {
+.task-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */

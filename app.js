@@ -86,10 +86,6 @@ var editTask=function(){
     var listItem=this.parentNode;
 
     var editInput=listItem.querySelector('.task-input');
-    // if (!editInput) {
-    //     console.error("Edit input not found.");
-    //     return;
-    // }
     var label=listItem.querySelector(".task-text");
     var editBtn=listItem.querySelector(".btn-edit");
     var containsClass=listItem.classList.contains("task-edit");
