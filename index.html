@@ -12,17 +12,18 @@
     charset="utf-8">
 </head>
 <body>
-  <div class="aaa">
+  <header class="aaa">
+    <h1 class="header__title">ToDo App</h1>
     <img src="./eisenhower-matrix.jpg">
     <a
       class="more_inf"
       href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
-  </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
-      <label for="new-task">Add Item</label>
+  </header>
+  <main class="centered-main-page-element">
+    <section id="topSectionForAddingElementToList">
+      <h2>Add Item</h2>
       <div class="task-row-wrapper">
         <input
           id="new-task"
@@ -30,8 +31,8 @@
           type="text">
         <button>Add</button>
       </div>
-    </p>
-    <h3>Todo</h3>
+    </section>
+    <h2>Todo</h2>
     <ul id="incompleteTasks">
       <li>
         <input type="checkbox">
@@ -55,7 +56,7 @@
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h2>Completed</h2>
     <ul id="completed-tasks">
       <li>
         <input type="checkbox" checked>
@@ -67,7 +68,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
